@@ -1,29 +1,40 @@
-# laisfrigerio.com.br
+# :copyright: Lais Frigério - Software Developer
+
+## Endpoints
+
+- `/` Home
+- `educacao.html` Detalhes da minha experiência educacional
+- `projetos.html` Lista de alguns projetos
+
+## :pencil: Stack
+
+- Javascript
+- vue-js framework
+- CSS/SCSS
+
+## :gem: Run Local
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+## Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Run your unit tests
+## Run your unit tests
 ```
 npm run test:unit
 ```
 
-### Lints and fixes files
+## Lints and fixes files
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

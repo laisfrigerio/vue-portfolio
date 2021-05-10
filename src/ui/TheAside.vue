@@ -4,7 +4,7 @@
     <profile-data />
     <profile-social-media />
     <profile-description />
-    <article class="profile-skill"></article>
+    <profile-skill />
   </aside>
 </template>
 
@@ -12,6 +12,7 @@
 import ProfileData from '@/components/ProfileData'
 import ProfileDescription from '@/components/ProfileDescription'
 import ProfileImage from '@/components/ProfileImage'
+import ProfileSkill from '@/components/ProfileSkill'
 import ProfileSocialMedia from '@/components/ProfileSocialMedia'
 
 export default {
@@ -20,6 +21,7 @@ export default {
     ProfileData,
     ProfileDescription,
     ProfileImage,
+    ProfileSkill,
     ProfileSocialMedia
   }
 }

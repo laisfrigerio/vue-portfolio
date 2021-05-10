@@ -1,0 +1,19 @@
+$z-index-lowest: -100;
+$z-index-lower: -10;
+$z-index-low: -1;
+$z-index: 0;
+$z-index-high: 1;
+$z-index-higher: 10;
+$z-index-highest: 100;
+
+$wrapper: 768px;
+$desktop: 1176px;
+$tablet01: $wrapper + 50px;
+$mobile01: 409px;
+
+$media-min778:'screen and (min-width: 778px)';
+$media-max616:'screen and (max-width: 616px)';
+$media-min617:'screen and (min-width: 617px)';
+$media-max409:'screen and (max-width: 409px)';
+
+$margin-bottom-default: 20px;

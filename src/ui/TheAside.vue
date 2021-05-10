@@ -29,6 +29,11 @@ export default {
 
 <style scoped lang="scss">
   aside {
-    width: 200px;
+    width: 100%;
+  }
+  @media #{$media-min617} {
+    aside {
+      width: 200px;
+    }
   }
 </style>

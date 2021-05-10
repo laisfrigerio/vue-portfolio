@@ -20,11 +20,16 @@ export default {
     font-size: 12px;
     line-height: $line-height-large;
     margin: 0 0 20px;
-    padding-left: 15px;
     text-align: center;
   }
 
   strong {
     font-weight: $bold;
+  }
+
+  @media #{$media-min617} {
+    .profile-skill {
+      padding-left: 15px;
+    }
   }
 </style>

@@ -1,4 +1,10 @@
 #wrapper {
-  margin: 0 auto;
+  margin: 0 10px;
   max-width: 768px;
+}
+
+@media #{$media-min778} {
+  #wrapper {
+    margin: 0 auto;
+  }
 }

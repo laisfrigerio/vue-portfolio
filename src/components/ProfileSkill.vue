@@ -69,4 +69,29 @@ export default {
       width: 35px;
     }
   }
+
+  .profile-skill {
+    @extend %flex;
+    @extend %flex-direction-column;
+  }
+
+  @media #{$media-max616} {
+    .profile-skill {
+      @include flex-direction-row;
+      @include justify-content-space-around;
+    }
+  }
+
+  @media #{$media-max409} {
+    .profile-skill {
+      @include flex-direction-column;
+      margin-left: 20px;
+    }
+  }
+
+  @media #{media-min410} {
+    .profile-skill {
+      @include flex-direction-row;
+    }
+  }
 </style>

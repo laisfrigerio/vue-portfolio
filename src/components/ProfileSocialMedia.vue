@@ -1,5 +1,5 @@
 <template>
-  <div class="profile-social-media">
+  <article class="profile-social-media">
     <a target="_blank" title="Página pessoal do Facebook" href="https://www.facebook.com/lais.frigerio">
       <icon-facebook />
     </a>
@@ -12,7 +12,7 @@
     <a target="_blank" title="Página do perfil no Linkedin" href="https://www.linkedin.com/in/laisfrigerio/">
       <icon-linkedin />
     </a>
-  </div>
+  </article>
 </template>
 
 <script>

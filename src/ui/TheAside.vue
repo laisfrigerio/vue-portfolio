@@ -3,13 +3,14 @@
     <profile-image />
     <profile-data />
     <profile-social-media />
-    <article class="profile-description"></article>
+    <profile-description />
     <article class="profile-skill"></article>
   </aside>
 </template>
 
 <script>
 import ProfileData from '@/components/ProfileData'
+import ProfileDescription from '@/components/ProfileDescription'
 import ProfileImage from '@/components/ProfileImage'
 import ProfileSocialMedia from '@/components/ProfileSocialMedia'
 
@@ -17,6 +18,7 @@ export default {
   name: 'TheAside',
   components: {
     ProfileData,
+    ProfileDescription,
     ProfileImage,
     ProfileSocialMedia
   }

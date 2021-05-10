@@ -1,5 +1,5 @@
 <template>
-    <div class="profile-data">
+    <article class="profile-data">
       <h1 class="author-name">
         <icon-glass />
         Lais Frigério
@@ -9,7 +9,7 @@
         <icon-email />
         laaisfrigerio@gmail.com
       </h2>
-    </div>
+    </article>
 </template>
 
 <script>

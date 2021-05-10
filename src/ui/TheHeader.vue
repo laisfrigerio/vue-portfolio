@@ -1,16 +1,27 @@
 <template>
   <header class="c-header">
     <ul>
-      <li class="active"><router-link :to="{ name: 'Home' }">Início</router-link></li>
-      <li><router-link :to="{ name: 'Education' }">Educação</router-link></li>
-      <li><router-link :to="{ name: 'Projects' }">Projetos</router-link></li>
+      <li :class="[active === HEADER.home ? 'active' : '']"><router-link :to="{ name: 'Home' }">Início</router-link></li>
+      <li :class="['test', active === HEADER.education ? 'active' : '']"><router-link :to="{ name: 'Education' }">Educação</router-link></li>
+      <li :class="[active === HEADER.projects ? 'active' : '']"><router-link :to="{ name: 'Projects' }">Projetos</router-link></li>
     </ul>
   </header>
 </template>
 
 <script>
-export default {
+import useHeader from '@/hooks/useHeader'
+import { HEADER } from '@/utils/const'
 
+export default {
+  name: 'TheHeader',
+  setup () {
+    const { active } = useHeader()
+
+    return {
+      HEADER,
+      active
+    }
+  }
 }
 </script>
 

@@ -1,6 +1,5 @@
 <template>
-  <div class="home">
-  </div>
+  <h1>Projetos</h1>
 </template>
 
 <script>
@@ -10,13 +9,17 @@ import useHeader from '@/hooks/useHeader'
 import { HEADER } from '@/utils/const'
 
 export default {
-  name: 'Home',
+  name: 'Projects',
   setup () {
     const { setActive } = useHeader()
 
     onMounted(() => {
-      setActive(HEADER.home)
+      setActive(HEADER.projects)
     })
   }
 }
 </script>
+
+<style>
+
+</style>

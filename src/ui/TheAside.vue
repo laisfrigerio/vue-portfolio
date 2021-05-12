@@ -31,7 +31,7 @@ export default {
   aside {
     width: 100%;
   }
-  @media #{$media-min617} {
+  @media #{$media-min778} {
     aside {
       width: 200px;
     }

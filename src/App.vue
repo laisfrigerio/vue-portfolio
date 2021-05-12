@@ -1,7 +1,9 @@
 <template>
   <the-header />
-  <the-aside />
-  <router-view/>
+  <main>
+    <the-aside />
+    <router-view/>
+  </main>
 </template>
 
 <script>

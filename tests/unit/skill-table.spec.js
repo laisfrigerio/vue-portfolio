@@ -9,7 +9,7 @@ describe('ProfileSkill.vue', () => {
         totalItems: 5
       }
     })
-    expect(wrapper.findAll('tbody trr')).toHaveLength(0)
+    expect(wrapper.findAll('tbody tr')).toHaveLength(0)
   })
 
   it('check has 4 languages', () => {

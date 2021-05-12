@@ -1,5 +1,5 @@
 <template>
-  <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+  <svg class="ico-email" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
     <g id="XMLID_1_">
       <polygon id="XMLID_869_" points="0,127.5 0,274.219 104.8,206.1"></polygon>
       <polygon id="XMLID_870_" points="400,274.219 400,127.5 295.2,206.1"></polygon>

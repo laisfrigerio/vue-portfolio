@@ -3,8 +3,8 @@
     <h3 class="title-03">Experiência Profissional</h3>
     <the-timeline>
       <the-timeline-item
-        subtitle="Editora Gazeta do Povo,"
-        period="Dezembro/2018 - Atualmente"
+        subtitle="Editora Gazeta do Povo"
+        period="Dezembro/2018 - Atualmente,"
         title="Analista de Sistemas Júnior"
       >
         <ul class="list">
@@ -37,7 +37,7 @@
       </the-timeline-item>
 
       <the-timeline-item
-        subtitle="C3SL - Centro de Computação Científica e Software Livre"
+        subtitle="Centro de Computação Científica e Software Livre"
         period="Setembro/2016 - Outubro/2017, "
         title="Pesquisadora"
       >

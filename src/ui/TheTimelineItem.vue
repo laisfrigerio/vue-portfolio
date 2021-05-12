@@ -64,7 +64,7 @@ export default {
       border-radius: 5px;
       color: $tertinary;
       margin: 0 0 10px 10px;
-      padding: 10px;
+      padding: 10px 10px 10px 15px;
       position: relative;
     }
   }

@@ -1,15 +1,15 @@
-# :copyright: Lais Frigério - Software Developer
+# :copyright: Lais Frigério - Software Developer 💚
 
 ## Endpoints
 
-- `/` Home
-- `educacao.html` Detalhes da minha experiência educacional
-- `projetos.html` Lista de alguns projetos
+- `/` Home (Detalhes da minha experiência profissional)
+- `educacao` Detalhes da minha experiência educacional
+- `projetos` Lista de projetos
 
 ## :pencil: Stack
 
 - Javascript
-- vue-js framework
+- VUEJS framework
 - CSS/SCSS
 
 ## :gem: Run Local

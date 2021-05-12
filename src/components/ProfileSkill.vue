@@ -1,14 +1,14 @@
 <template>
   <article class="profile-skill">
     <div class="tech-skill">
-      <h3>Habilidades</h3>
+      <h3 class="title-03">Habilidades</h3>
       <skill-table
         :items="techs"
         :totalItems="5"
       />
     </div>
     <div class="language-skill">
-      <h3>Idiomas</h3>
+      <h3 class="title-03">Idiomas</h3>
       <skill-table
         :items="languages"
         :totalItems="5"
@@ -50,32 +50,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  h3 {
-    color: $white;
-    font-family: $font-secondary;
-    font-size: 11px;
-    letter-spacing: 2px;
-    line-height: 150%;
-    margin-bottom: 10px;
-    padding: 5px 0;
-    position: relative;
-
-    &:after {
-      border-bottom: 4px solid $secondary;
-      bottom: 0;
-      content: '';
-      left: 0;
-      position: absolute;
-      width: 35px;
-    }
-  }
-
   .profile-skill {
     @extend %flex;
     @extend %flex-direction-column;
   }
 
-  @media #{$media-max616} {
+  @media #{$media-max777} {
     .profile-skill {
       @include flex-direction-row;
       @include justify-content-space-around;
@@ -84,14 +64,8 @@ export default {
 
   @media #{$media-max409} {
     .profile-skill {
+      @include align-items-center;
       @include flex-direction-column;
-      margin-left: 20px;
-    }
-  }
-
-  @media #{media-min410} {
-    .profile-skill {
-      @include flex-direction-row;
     }
   }
 </style>

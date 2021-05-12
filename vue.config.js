@@ -10,6 +10,7 @@ module.exports = {
           @import "@/assets/styles/mixins.scss";
           @import "@/assets/styles/normalize.scss";
           @import "@/assets/styles/basics.scss";
+          @import "@/assets/styles/title.scss";
         `
       }
     }
